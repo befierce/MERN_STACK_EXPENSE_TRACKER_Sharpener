@@ -1,0 +1,16 @@
+.navbar{
+    background-color: aqua;
+    display: flex;
+    height: 70px;
+    /* border: 3px solid black */
+}
+.websitename{
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #012652;
+    font-size: 34px;
+    font-weight: 900;
+}

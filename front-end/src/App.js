@@ -1,7 +1,7 @@
 import SignUpLogIn from "./Pages/SignUp";
 import "./App.css";
 import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
-import Home from "./Pages/Home";
+import ExpenseTracker from "./Pages/ExpenseTracker";
 
 // const router = createBrowserRouter([
 //   {
@@ -13,10 +13,8 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route path="/">
-
-        
-          <Home />
+        <Route path="/expense-tracker">
+          <ExpenseTracker />
         </Route>
         <Route path="/">
           <SignUpLogIn />

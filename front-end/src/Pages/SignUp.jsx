@@ -44,7 +44,7 @@ const SignUpLogIn = () => {
     
   };
   return (
-    <>
+    <div className={classes.formcontainer}>
       <form className={classes.form} onSubmit={formSubmitHandler}>
         <p>
           {logInState ? "Welcome!! please LogIn" : "Welcome!! please SignUp"}
@@ -63,7 +63,7 @@ const SignUpLogIn = () => {
         </div>
         <FormSubmitButton description={logInState ? "LogIn" : "SignUp"} />
       </form>
-    </>
+    </div>
   );
 };
 

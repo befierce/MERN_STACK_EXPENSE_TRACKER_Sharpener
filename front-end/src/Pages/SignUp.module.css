@@ -1,0 +1,55 @@
+
+
+
+.input{
+     width: 70%;
+     /* height: 50%; */
+     height: 10%;
+     border-radius: 5px;
+     /* border: 5px solid black; */
+     margin: 9px;
+     background-color: #ffffff
+}
+
+.form{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    /* border: 5px solid black; */
+    border-radius: 5px;
+    flex-direction: column;
+    margin-top: 180px;
+    justify-content:center ;
+    align-items: center;
+    /* background-color: #b50027; */
+    background-color: #ffffff;
+    box-shadow: 1px 2px 3px 2px rgb(171, 119, 245);
+}
+
+.clickableLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .clickableLine .line {
+    flex: 1;
+    height: 1px;
+    background-color: #000;
+    margin: 0 10px;
+  }
+  
+  .clickableLine span {
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+    /* text-transform: uppercase; */
+  }
+
+  .toggleSignUpToLogIn{
+    font-size: 21px;
+  }

@@ -1,0 +1,81 @@
+.takingexpenseinputcontainer {
+    height: 180px;
+    background-color: aquamarine;
+    margin-top: 3px;
+  }
+  
+  .amountcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+  }
+  .descriptioncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+  }
+  .categorycontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+  }
+  /* For the amount input */
+  .amountinput {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Add other desired styles */
+  }
+  .addexpensebutton{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .addexpensebuttoninput{
+      width:300px;
+      height: 40px;
+      background-color: #012652;
+      border-radius: 5px;
+      color: white;
+  }
+  .addexpensebuttoninput:hover{
+      background-color: #0c3876;
+      cursor:pointer;
+  }
+  
+  .descriptioninput {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .categoryinput{
+      height: 40px;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  .innerformcontainer {
+    height: 65%;
+    /* border: 2px solid BLACK */
+  }
+  .innerformcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  

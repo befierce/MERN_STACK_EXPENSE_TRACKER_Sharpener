@@ -1,0 +1,35 @@
+.messageContainer{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(190, 220, 248);
+     */
+     color: aquamarine;
+     display: flex;
+     justify-content: center ;
+     font-size: 60px;   
+     margin-bottom: 150px;
+}
+.completeProfileForm{
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* height: inherit; */
+}
+.completeProfileForm label{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.completeProfileForm button{
+    margin-left: 30px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    height: 22px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.completeProfileForm button:hover{
+    background-color: rgb(17, 19, 46);
+    color: white;
+}
+

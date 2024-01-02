@@ -1,19 +1,33 @@
-import link from "react-router-dom"
+import link from "react-router-dom";
+import icon from "./switch.png";
 // import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import classes from "./NavBar.module.css"
+import classes from "./NavBar.module.css";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-
-
 const Navbar = () => {
-    return (<div className={classes.navbar}>
-        <div className={classes.websitename}>
-            EXPENSE MANAGER
-        </div>
+    const loginLogoutHandler=()=>{
+    }
+
+
+  return (
+    <div className={classes.navbar}>
+      <div className={classes.websitename}> ExpenseTracker</div>
+      <div className={classes.navbarLinks}>
+        <Link to="/">contact us</Link>
+      </div>
+      <div className={classes.profileAndLogOutButton}>
+        <div></div>
         <div>
-            <Link to="/">contact us</Link>
+          <img
+            className={classes.logOutButton}
+            src={icon}
+            alt="Logout"
+            title="Logout"
+          onClick={loginLogoutHandler}></img>
         </div>
-    </div>);
-}
- 
+      </div>
+    </div>
+  );
+};
+
 export default Navbar;

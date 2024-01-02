@@ -5,7 +5,7 @@
     /* border: 3px solid black */
 }
 .websitename{
-    width: 30%;
+    width: 40%;
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
@@ -13,4 +13,23 @@
     color: #012652;
     font-size: 34px;
     font-weight: 900;
+}
+.navbarLinks{
+    width: 47%;
+}
+.profileAndLogOutButton{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logOutButton{
+    /* width:30px; */
+    height: 45px ;
+    border-radius: 34px;
+}
+.logOutButton:hover{
+    background-color: rgb(149, 255, 0);
+    cursor: pointer;
 }
